@@ -1,0 +1,24 @@
+[Map]
+image=simpleMap.bmp
+warn=yes
+author=Team 14
+scroll=horizontal
+wrap=no
+
+[Continents]
+north america=5
+south america=2
+africa=3
+
+[Territories]
+alaska,0,0,north america,quebec,ontario,venezuela
+ontario,0,0,north america,alaska,madagascar
+quebec,0,0,north america,alaska,venezuela,Test
+Test,0,0,north america,quebec
+
+venezuela,0,0,south america,peru,quebec,alaska
+peru,0,0,south america,venezuela,north africa
+
+north africa,0,0,africa,south africa,peru
+south africa,0,0,africa,north africa,madagascar
+madagascar,0,0,africa,south africa,ontario

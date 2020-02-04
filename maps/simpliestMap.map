@@ -1,0 +1,17 @@
+[Map]
+image=world.bmp
+warn=yes
+author=Team 14
+scroll=horizontal
+wrap=no
+
+[Continents]
+North America=5
+South America=5
+
+[Territories]
+A,70,126,North America,B,C
+B,253,166,North America,A,C
+
+C,259,303,South America,A,B
+

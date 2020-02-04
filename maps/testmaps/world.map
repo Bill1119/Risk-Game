@@ -1,0 +1,42 @@
+[Map]
+image=world.bmp
+warn=yes
+author=Team 14
+scroll=horizontal
+wrap=no
+
+[Continents]
+North America=5
+South America=2
+Africa=3
+Europe=5
+Asia=7
+Oceania=2
+
+[Territories]
+Alaska,70,126,North America,Quebec,Ontario,China
+Ontario,199,167,North America,Alaska,Quebec,Central America
+Quebec,253,166,North America,Alaska,Ontario,Central America,Western Europe
+Central America,183,262,North America,Quebec,Ontario,Venezuela
+
+Venezuela,259,303,South America,Central America,Brazil,Argentina
+Peru,262,349,South America,Brazil,Argentina,South Africa
+Argentina,263,407,South America,Peru,Brazil,Venezuela
+Brazil,308,337,South America,Venezuela,Peru,Argentina,North Africa
+
+North Africa,420,264,Africa,Southern Europe,India,South Africa,Madagascar
+South Africa,483,371,Africa,Madagascar,North Africa,Peru
+Madagascar,536,361,Africa,North Africa,South Africa
+
+Western Europe,423,202,Europe,Northern Europe,Russia,Southern Europe,Quebec
+Northern Europe,460,173,Europe,Western Europe,Russia
+Southern Europe,473,197,Europe,North Africa,Western Europe
+Russia,524,157,Europe,Northern Europe
+
+Ural,613,136,Asia,China,Russia,India
+China,613,136,Asia,Ural,India,Alaska
+India,613,136,Asia,Ural,China,North Africa,Australia
+
+Australia,698,314,Oceania,Indonesia,India
+Indonesia,768,325,Oceania,New Zealand,Australia
+New Zealand,729,373,Oceania,Indonesia

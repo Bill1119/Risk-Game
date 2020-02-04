@@ -1,0 +1,14 @@
+classTests
+classTests.strategy
+controller
+gameConsoleTest
+mapEditorTest
+model.gameplay
+model.gameplay.strategy
+model.map
+model.utilities
+testSuites
+testSuites.testModules
+view.common
+view.gameplay
+view.mapEditor
