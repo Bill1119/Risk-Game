@@ -24,3 +24,5 @@ View mainly deals with functions that making the functions in other parts can be
 The Common package helps to show the main menu to help users to choose whether they want to edit the map or play the game. <br/>
 The gamePlay package helps users to choose map files and implementing the game state phases for users to know what is happening when playing the game. <br/>
 The MapEditor class fulfill functions for showing the map properties to help users create and editing maps. <br/>
+
+![Image of MVC](https://github.com/Bill1119/Risk-Game/blob/master/images/image01.png)
