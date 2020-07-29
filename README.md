@@ -4,7 +4,8 @@ for the system, called Controller, Model, and View.
 
 ## How to Run:
 This program was written using Java and can be executed with Java jdk 13. </br>
-Just use java to run the MainController.java then the program will start.
+Just use java to run the MainController.java then the program will start. </br>
+The test cases is based on JUnit 4.
 
 ### 1. Controller: 
 In this project, it has 4 controllers, GameController, MainController, MapEditorController, and TournamentController. <br/>
@@ -74,3 +75,6 @@ The MapEditor view class fulfill functions for showing the map properties to hel
 and editing maps. It includes 3 view classes such as EditorMenuView, EditView, and MapEditorView.</br>
 
 ![Image of MVC](https://github.com/Bill1119/Risk-Game/blob/master/images/image01.png)
+</br>
+
+
