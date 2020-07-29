@@ -2,9 +2,18 @@
 This project is using the MVC architecture design. The structure separates into 3 main parts for the system, called Controller, Model, and View.
 
 ### Controller: 
-For the design of the Controller, we create 3 different classes inside the package called MainController.class, GameController.class, MapEditorController.class to deal with the control for the main menu, gameplay, and the map editor. <br/>
-  Each of the class focusses on the specific area of the features. <br/>
+In this project, it has 4 controllers, GameController, MainController, MapEditorController, and TournamentController <br/>
 
+#### MainController:
+	In the MainController, it is the menu model of the system when first launched, it gives players 2 options at the beginning, either play game or edit map.
+#### GameController:
+	In the GameController, there is one method , excute , to perform the whole phase of the gameplay, including startup phase, reinforcement phase, attack phase and fortification phase. 
+
+#### MapEditorController:
+	This controller will be called when the player choose to edit map. Any operation related to map editing, will be implemented in this controller.
+#### TournamentController:
+	This controller will be called when the player choose the tournament mode. In this mode, the player can choose 1~5 maps, how many games will play in each map, and 2~4 AI
+	players. Once the player finished choosing those options, the mode will run the input and show the final result for each map and game to the user.
 ### Model:
 Packages: GamePlay, Map, Utilities <br/>
 The model package mainly focuses on the implementation of the logic functions of the gaming and editing part. <br/>
