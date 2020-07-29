@@ -3,7 +3,7 @@ This project is using the MVC architecture design. The structure separates into 
 for the system, called Controller, Model, and View.
 
 ## How to Run:
-This program was written using Java and can be executed with Java jdk 13 </br>
+This program was written using Java and can be executed with Java jdk 13. </br>
 Just use java to run the MainController.java then the program will start.
 
 ### 1. Controller: 
